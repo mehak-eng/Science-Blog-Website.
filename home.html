@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>HOME</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="banner">
+            <img src="/Science Blog/ASSETS/logo.jpg">
+            <h1>The Curious Mind</h1>
+            <p>Exploring the Wonders of Science and Discovery</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+              <li> <a href="#header" target="_blank">Home</a></li>
+              <li> <a href="#discovery" target="_blank">Discoveries</a></li>
+              <li> <a href="#experiment">Experiments</a></li>
+              <li> <a href="#about">About</a></li>
+              <li> <a href="#contact">Contact</a></li>
+              <li> <a href="#submission">Add Blog</a></li>
+              
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <section class="discoveries-section">
+        <h2 id="discovery">Recent Scientific Discoveries</h2>
+        <div class="discoveries-grid">
+            <!-- Card 1 -->
+            <div class="discovery-card">
+                <a href="/Science Blog/space.html" target="_blank"> <img src="/Science Blog/ASSETS/space.jpeg" alt="Space Discovery" > </a>
+                <h3>Breakthrough in Deep Space Exploration </h3>
+                <p>A team of astronomers has discovered a new exoplanet in the habitable zone.</p>
+                <a href="/Science Blog/space.html" target="_blank"><button onclick="openArticle('space') ">Read More</button></a>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="discovery-card">
+                <a href="/Science Blog/dna.html" target="_blank"> <img src="/Science Blog/ASSETS/dna.jpeg" alt="DNA Structure"> </a>
+                <h3>Advancements in Genetics</h3>
+                <p>New insights into the CRISPR technology are revolutionizing genetic research.</p>
+              <a href="/Science Blog/dna.html" target="_blank"><button onclick="openArticle('genetics')">Read More</button> </a>
+            </div>
+    
+            <!-- Card 3 -->
+            <div class="discovery-card">
+                <a href="/Science Blog/ocean.html" target="_blank">  <img src="/Science Blog/ASSETS/ocean.jpg" alt="Ocean Discovery"> </a>
+                <h3>Mysteries of the Deep Ocean</h3>
+                <p>Scientists have identified unique lifeforms in the Mariana Trench.</p>
+                <a href="/Science Blog/ocean.html" target="_blank"><button onclick="openArticle('ocean')">Read More</button></a>
+            </div>
+
+            <!-- Card 5-->
+<div class="discovery-card">
+    <a href="/Science Blog/ai.html" target="_blank"><img src="/Science Blog/ASSETS/ai.jpeg" alt="AI Technology" ></a>
+    <h3>Artificial Intelligence Breakthrough</h3>
+    <p>A groundbreaking algorithm has improved natural language understanding capabilities.</p>
+    <a href="/Science Blog/ai.html" target="_blank"> <button onclick="openArticle('ai')">Read More</button></a>
+</div>
+
+<!-- Card 6 -->
+<div class="discovery-card">
+    <a href="/Science Blog/climate.html" target="_blank"> <img src="/Science Blog/ASSETS/climate.jpeg" alt="Climate Research"></a>
+    <h3> Progress in Climate Change Research</h3>
+    <p>New data sheds light on the impact of Arctic ice melting on global ecosystems.</p>
+    <a href="/Science Blog/climate.html" target="_blank">   <button onclick="openArticle('climate')">Read More</button></a>
+</div>
+
+<!-- Card 7 -->
+<div class="discovery-card">
+    <a href="/Science Blog/quantum.html" target="_blank"><img src="/Science Blog/ASSETS/quantum.jpeg" alt="Quantum Computing"> </a>
+    <h3> Advancements in Quantum Computing     </h3>
+    <p>Researchers have developed a stable quantum bit for faster computations.</p>
+    <a href="/Science Blog/quantum.html" target="_blank"><button onclick="openArticle('quantum')">Read More</button></a>
+</div>
+        </div>
+    </section>
+    <!-- Aside Section for Ads -->
+    <aside class="ads-section">
+        <h2>Sponsored Ads</h2>
+        <div class="ad-container">
+            <div class="ad">
+                <a href="https://www.daraz.pk/products/12-bt-v50-ios-i488225173-s2296212192.html?scm=1007.51657.380827.0&pvid=6944b7e3-aca6-420f-9ba1-55133ef73d6b&search=flashsale&spm=a2a0e.tm80335142.FlashSale.d_488225173" target="_blank">  <img src="/Science Blog/ASSETS/ad_1.jpg" alt="Ad 1"> </a>
+                <p>Explore the latest in technology with our top picks!</p>
+                <a href="https://www.daraz.pk/products/12-bt-v50-ios-i488225173-s2296212192.html?scm=1007.51657.380827.0&pvid=6944b7e3-aca6-420f-9ba1-55133ef73d6b&search=flashsale&spm=a2a0e.tm80335142.FlashSale.d_488225173" target="_blank">Shop Now</a>
+            </div>
+            <div class="ad">
+                <a href="https://www.daraz.pk/products/usb-2tb-2tb-usb-u-1tb-usb-usb-1-gb-usb-1tb-usb-2-usb-tb-i506604425-s2416003779.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253Ausb%253Bnid%253A506604425%253Bsrc%253ALazadaMainSrp%253Brn%253A75bb8ca779a40077d6f6a9510cd3b593%253Bregion%253Apk%253Bsku%253A506604425_PK%253Bprice%253A1141.22%253Bclient%253Adesktop%253Bsupplier_id%253A6005223488577%253Bbiz_source%253Ahttps%253A%252F%252Fwww.daraz.pk%252F%253Bslot%253A2%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10490%253Bitem_id%253A506604425%253Bsku_id%253A2416003779%253Bshop_id%253A1750377%253BtemplateInfo%253A&freeshipping=0&fs_ab=1&fuse_fs=&lang=en&location=Punjab&price=1141.22&priceCompare=skuId%3A2416003779%3Bsource%3Alazada-search-voucher%3Bsn%3A75bb8ca779a40077d6f6a9510cd3b593%3BoriginPrice%3A114100%3BdisplayPrice%3A114100%3BsinglePromotionId%3A50000017936001%3BsingleToolCode%3ApromPrice%3BvoucherPricePlugin%3A0%3Btimestamp%3A1735109394115&ratingscore=3.8552631578947367&request_id=75bb8ca779a40077d6f6a9510cd3b593&review=76&sale=638&search=1&source=search&spm=a2a0e.searchlist.list.2&stock=1" target="_blank"> <img src="/Science Blog/ASSETS/ad_2.jpg" alt="Ad 2"></a> 
+                <p>Utilize the power of external devices.</p>
+                <a href="https://www.daraz.pk/products/usb-2tb-2tb-usb-u-1tb-usb-usb-1-gb-usb-1tb-usb-2-usb-tb-i506604425-s2416003779.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253Ausb%253Bnid%253A506604425%253Bsrc%253ALazadaMainSrp%253Brn%253A75bb8ca779a40077d6f6a9510cd3b593%253Bregion%253Apk%253Bsku%253A506604425_PK%253Bprice%253A1141.22%253Bclient%253Adesktop%253Bsupplier_id%253A6005223488577%253Bbiz_source%253Ahttps%253A%252F%252Fwww.daraz.pk%252F%253Bslot%253A2%253Butlog_bucket_id%253A470687%253Basc_category_id%253A10490%253Bitem_id%253A506604425%253Bsku_id%253A2416003779%253Bshop_id%253A1750377%253BtemplateInfo%253A&freeshipping=0&fs_ab=1&fuse_fs=&lang=en&location=Punjab&price=1141.22&priceCompare=skuId%3A2416003779%3Bsource%3Alazada-search-voucher%3Bsn%3A75bb8ca779a40077d6f6a9510cd3b593%3BoriginPrice%3A114100%3BdisplayPrice%3A114100%3BsinglePromotionId%3A50000017936001%3BsingleToolCode%3ApromPrice%3BvoucherPricePlugin%3A0%3Btimestamp%3A1735109394115&ratingscore=3.8552631578947367&request_id=75bb8ca779a40077d6f6a9510cd3b593&review=76&sale=638&search=1&source=search&spm=a2a0e.searchlist.list.2&stock=1" target="_blank">Shop Now</a>
+            </div>
+            <div class="ad">
+                <a href="https://www.youtube.com/@JeffSu" target="_blank">  <img src="/Science Blog/ASSETS/ad_3.jpg" alt="Ad 3"> </a>
+                <p>Subscribe to Artificial Intelligence for insightful videos.</p>
+                <a href="https://www.youtube.com/@JeffSu" target="_blank">Subscribe</a>
+            </div>
+        </div>
+    </aside>
+    <!-- Experiment section -->
+    <section class="experiments-section">
+        <h2 id="experiment">Explore Exciting Experiments</h2>
+        <div class="experiment-list">
+            <!-- Experiment 1 -->
+            <article class="experiment-item">
+                <h3><a href="/Science Blog/experiment/volcano.html" target="_blank">DIY Volcano</a></h3>
+                <p>Create an erupting volcano with baking soda and vinegar!</p>
+                <a href="https://youtu.be/PrD0PfSQJwg?si=4KfOb0VAb_1wvNYo" class="experiment-link" target="_blank">View Full Guide</a>
+            </article>
+
+            <!-- Experiment 2 -->
+            <article class="experiment-item">
+                <h3><a href="/Science Blog/experiment/circuit.html" target="_blank">Simple Circuit</a></h3>
+                <p>Learn how to light a bulb using basic electrical components.</p>
+                <a href="https://youtu.be/x4pdzG-DHnY?si=gQuTDwhXVvfpZL0C" class="experiment-link" target="_blank">View Full Guide</a>
+            </article>
+
+            <!-- Experiment 3 -->
+            <article class="experiment-item">
+                <h3><a href="/Science Blog/experiment/density.html" target="_blank">Water Density Test</a></h3>
+                <p>Discover why objects float or sink with simple materials.</p>
+                <a href="https://youtu.be/s0Kh_m-qXy4?si=B_ECnwsoMXSbS3p4" class="experiment-link" target="_blank">View Full Guide</a>
+            </article>
+
+            <!-- Experiment 4 -->
+            <article class="experiment-item">
+                <h3><a href="/Science Blog/experiment/aiExperiment.html" target="_blank">AI Experiment</a></h3>
+                <p>Understand the basics of artificial intelligence through hands-on projects.</p>
+                <a href="https://www.youtube.com/watch?v=I_GJ5K5Bxug" class="experiment-link" target="_blank">View Full Guide</a>
+            </article>
+
+            <!-- Experiment 5 -->
+            <article class="experiment-item">
+                <h3><a href="/Science Blog/experiment/climateChange.html" target="_blank">Climate Change Simulation</a></h3>
+                <p>Simulate the effects of climate change on different ecosystems.</p>
+                <a href="https://www.youtube.com/watch?v=SLEenW2UiUw" class="experiment-link" target="_blank">View Full Guide</a>
+            </article>
+
+            <!-- Experiment 6 -->
+            <article class="experiment-item">
+                <h3><a href="/Science Blog/experiment/quantum.html" target="_blank">Quantum Computing</a></h3>
+                <p>Explore the fascinating world of quantum computing and basic concepts.</p>
+                <a href="https://www.youtube.com/watch?v=jHoEjvuPoB8" class="experiment-link" target="_blank">View Full Guide</a>
+            </article>
+        </div>
+    </section>
+    <!-- About Section -->
+    <main>
+        <section class="about-section">
+            <h2 id="about">About Us</h2>
+            <p>At The Curious Mind, we are dedicated to bringing the wonders of science closer to the curious minds of all ages. Whether you're interested in breakthroughs in research, hands-on experiments, or fascinating discoveries, we aim to make science both exciting and accessible.</p>
+            <div class="mission-statement">
+                <h3>Our Mission</h3>
+                <p>Our mission is to spark curiosity and inspire learning by providing high-quality science content, including up-to-date discoveries, easy-to-follow experiments, and insightful articles that make science accessible and enjoyable for everyone
+                    .At The Curious Mind, we believe that science is the key to understanding the world around us. Our mission is to make scientific knowledge accessible, engaging, and inspiring for everyone, whether you're a student, a lifelong learner, or simply curious about the universe.
+                    Our goal is to bridge the gap between complex scientific concepts and everyday understanding. We aim to spark curiosity, promote critical thinking, and empower readers to explore the wonders of science through accurate, engaging, and thought-provoking content.</p>
+                    
+                <h3 >What We Offer</h3>
+                <div id="offer-container"> <p>
+               <b>Discoveries:</b> Stay up-to-date with the latest scientific breakthroughs, innovations, and research from around the globe.<br>
+
+               <b> Experiments: </b> Explore hands-on experiments and guides designed to make science interactive and fun.<br>
+
+                <b> Education:</b>  Learn about fascinating topics across physics, biology, chemistry, astronomy, and more.<br>
+
+                <b> Our Philosophy :</b>  We believe that science should be inclusive and accessible to everyone. With a commitment to fostering a love for learning, we present content that's not only educational but also entertaining and relevant to our modern world.<br>
+            </div> 
+                    <h3>Join the Journey</h3>
+                   <p> 
+                    Whether you're here to discover, experiment, or simply feed your curiosity, we invite you to join us on this incredible journey of exploration and learning. Together, let's unlock the mysteries of the universe, one discovery at a time.
+                </p>
+            </div>
+        </section>
+            <!-- Aside Section for Ads -->
+    <aside class="ads-section">
+        <h2>Sponsored Ads</h2>
+        <div class="ad-container">
+            <div class="ad">
+               <a href ="https://www.daraz.pk/products/set-of-3-books-terms-and-conditions-final-offer-and-the-fine-print-novel-by-lauren-asher-best-selling-ks-i427717269-s2032606917.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253Abooks%252Bsets%253Bnid%253A427717269%253Bsrc%253ALazadaMainSrp%253Brn%253Ab382a1d9f88908504cd1b5f19ecdf475%253Bregion%253Apk%253Bsku%253A427717269_PK%253Bprice%253A739%253Bclient%253Adesktop%253Bsupplier_id%253A6011%253Bbiz_source%253Ahttps%253A%252F%252Fwww.daraz.pk%252F%253Bslot%253A10%253Butlog_bucket_id%253A470687%253Basc_category_id%253A3414%253Bitem_id%253A427717269%253Bsku_id%253A2032606917%253Bshop_id%253A91185%253BtemplateInfo%253A&freeshipping=0&fs_ab=1&fuse_fs=&lang=en&location=Sindh&price=739&priceCompare=skuId%3A2032606917%3Bsource%3Alazada-search-voucher%3Bsn%3Ab382a1d9f88908504cd1b5f19ecdf475%3BoriginPrice%3A73900%3BdisplayPrice%3A73900%3BsinglePromotionId%3A50000017936001%3BsingleToolCode%3ApromPrice%3BvoucherPricePlugin%3A0%3Btimestamp%3A1735231100796&ratingscore=4.35374149659864&request_id=b382a1d9f88908504cd1b5f19ecdf475&review=147&sale=635&search=1&source=search&spm=a2a0e.searchlist.list.10&stock=1" target="_blank"> <img src="/Science Blog/ASSETS/ad_4.jpg" alt="Ad 1"> </a>  <p>Enjoy Your Interest</p>         <a href="https://www.daraz.pk/products/set-of-3-books-terms-and-conditions-final-offer-and-the-fine-print-novel-by-lauren-asher-best-selling-ks-i427717269-s2032606917.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253Abooks%252Bsets%253Bnid%253A427717269%253Bsrc%253ALazadaMainSrp%253Brn%253Ab382a1d9f88908504cd1b5f19ecdf475%253Bregion%253Apk%253Bsku%253A427717269_PK%253Bprice%253A739%253Bclient%253Adesktop%253Bsupplier_id%253A6011%253Bbiz_source%253Ahttps%253A%252F%252Fwww.daraz.pk%252F%253Bslot%253A10%253Butlog_bucket_id%253A470687%253Basc_category_id%253A3414%253Bitem_id%253A427717269%253Bsku_id%253A2032606917%253Bshop_id%253A91185%253BtemplateInfo%253A&freeshipping=0&fs_ab=1&fuse_fs=&lang=en&location=Sindh&price=739&priceCompare=skuId%3A2032606917%3Bsource%3Alazada-search-voucher%3Bsn%3Ab382a1d9f88908504cd1b5f19ecdf475%3BoriginPrice%3A73900%3BdisplayPrice%3A73900%3BsinglePromotionId%3A50000017936001%3BsingleToolCode%3ApromPrice%3BvoucherPricePlugin%3A0%3Btimestamp%3A1735231100796&ratingscore=4.35374149659864&request_id=b382a1d9f88908504cd1b5f19ecdf475&review=147&sale=635&search=1&source=search&spm=a2a0e.searchlist.list.10&stock=1" target="_blank">Book Now</a>
+            </div>
+            <div class="ad">
+                <a href="https://www.daraz.pk/products/laptop-bag-travel-bag-backpack-black-blue-and-grey-i421883484-s1995565170.html?pvid=f01a8b3f-4eab-4650-8c0d-60033c9053ed&search=jfy&scm=1007.51705.414278.0&spm=a2a0e.tm80335142.just4u.d_421883484" target="_blank"> <img src="/Science Blog/ASSETS/ad_5.jpg" alt="Ad 5"> </a>
+                <p>Buy Your Favorite Product Now</p>
+                <a href="https://www.daraz.pk/products/laptop-bag-travel-bag-backpack-black-blue-and-grey-i421883484-s1995565170.html?pvid=f01a8b3f-4eab-4650-8c0d-60033c9053ed&search=jfy&scm=1007.51705.414278.0&spm=a2a0e.tm80335142.just4u.d_421883484" target="_blank">Buy Yours</a>
+            </div>
+                </div>
+    </aside>
+        <!-- Contact Form Section -->
+        <section class="contact-section">
+            <h2 id="contact">Get in Touch</h2>
+            <p>If you have any questions or feedback, feel free to send us a message. We will get back to you as soon as possible!</p>
+
+            <form id="contact-form" action="process_form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="Phone">Your Phone Number:</label>
+                    <input type="number" id="number" name="number" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+
+            <!-- Optional: Map or Address Section -->
+            <div class="location">
+                <h3>Our Location</h3>
+                <p>123 Science Street, Knowledge City, ScienceLand</p>
+                <div id="map">
+                    <!-- Embed Google Map -->
+                    <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="blog-submission-section">
+            <h2 id="submission">Add Your Blog</h2>
+            <p>Have a scientific discovery, experiment, or article you'd like to share? Submit your blog here!</p>
+            <form id="blogForm">
+                <label for="title">Blog Title:</label><br>
+                <input type="text" id="title" name="title" placeholder="Enter the title of your blog" required><br><br>
+        
+                <label for="content">Blog Content:</label><br>
+                <textarea id="content" name="content" rows="10" placeholder="Write your blog content here..." required></textarea><br><br>
+        
+                <label for="author">Your Name:</label><br>
+                <input type="text" id="author" name="author" placeholder="Your name" required><br><br>
+        
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Your email address" required><br><br>
+        
+                <button type="submit">Submit Blog</button>
+            </form>
+            <p id="responseMessage" style="display:none; color:green;">Thank you for your submission! We'll review it soon.</p>
+        </section>
+
+
+       </main>
+       <footer>
+
+<footer class="footer">
+    <div class="footer-container">
+        <!-- About Section -->
+        <div class="footer-about">
+            <h3>About The Curious Mind</h3>
+            <p>Your go-to blog for the latest scientific discoveries, experiments, and educational content. Join us in exploring the wonders of science!</p>
+        </div>
+
+       <!-- Contact Info -->
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: <a href="mailto:info@thecuriousmind.com">info@thecuriousmind.com</a></p>
+            <p>Phone: +123 456 7890</p>
+            <p>Address: 123 Science Street, Knowledge City</p>
+        </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <p>&copy; 2024 The Curious Mind. All rights reserved.</p>
+        <p>
+            Follow us: 
+            <a href="https://facebook.com" target="_blank">Facebook</a> | 
+            <a href="https://twitter.com" target="_blank">Twitter</a> | 
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </p>
+    </div>
+</footer> 
+</body>
+<script src="home.js"></script>
+</html>

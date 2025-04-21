@@ -1,0 +1,648 @@
+/* header */
+/* Header Styles */
+body{
+    padding: 100opx;
+}
+html {
+    scroll-behavior: smooth;
+}
+header{
+    border : 1px solid black;
+}
+nav{
+    margin-top: 30px;
+    padding-left: 50px;
+}
+.header {
+    text-align: center;
+    background-color :#00274e;
+    color: white;
+    padding: 3px 0;
+}
+
+.header .banner h1 {
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 3rem;  
+    margin: 0;
+}
+.header .banner img{
+
+}
+.header .banner p {
+    font-size: 1.2rem;
+   font-family:cursive;
+   color: #cfdbe7 ;
+    margin: 10px 20px 20px 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color :transparent;
+}
+
+.navbar li {
+        margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+/* Discoveries Section */
+.discoveries-section {
+    padding: 40px;
+    background-color : #cfdbe7;
+    text-align: center;
+    border : 1px solid black;
+    margin: 20px auto;
+     width : 900px;
+     padding-left: 90px;
+     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk3575Yr3WFbmQokWHpcQe8Sagky2ovoPcPA&s');
+  background-size: contain; /* Ensure the image covers the whole section */
+  background-position: center; 
+  background-attachment: fixed;
+}
+img{
+    border: 2px solid black;
+}
+.discoveries-section h3 a 
+{
+    text-decoration: none;
+    color: #cfdbe7;
+}
+.discoveries-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: cursive;
+    color :#cfdbe7;
+}
+
+.discoveries-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.discovery-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.2s;
+}
+
+.discovery-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.discovery-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color :#003366;
+}
+
+.discovery-card p {
+    color :0 0 0 (0.2);
+    margin-bottom: 15px;
+}
+
+.discovery-card button {
+    padding: 10px 15px;
+    background-color :#003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor :pointer;
+    font-weight: bold;
+}
+
+.discovery-card button:hover {
+    background-color:#00458a;
+}
+
+.discovery-card:hover {
+   
+    transform: translateY(-25px);
+    background-color :hwb(0 76% 24);
+}
+/* Experiments Section */
+.experiments-section {
+    padding: 40px;
+    background-color : #cfdbe7;
+    border : 1px solid black;
+    margin: 20px auto;
+    width : 900px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAO4y19W-Fp-aYT3dlcKwEqB5n4lUeeiUxcA&s');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.experiments-section h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: cursive;
+    color :#cfdbe7;
+}
+
+.experiment-list {
+    display: flex;
+    flex-direction :column;
+    gap: 25px;
+    padding: 0 20px;
+}
+
+.experiment-item {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experiment-item h3 a {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #003366;
+    text-decoration: none;
+
+    }
+
+.experiment-item p {
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.experiment-link  {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #00274e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+.experiment-link:hover {
+    background-color:#00458a;
+   
+    
+}
+.experiment-item:hover
+{
+    transform: translateY(-20px);
+    background-color :hwb(0 76% 24%);
+}
+
+/* Highlight Active Navigation */
+.navbar .active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+/* About section */
+.about-section {
+    padding: 40px;
+    background-color :#cfdbe7;
+    text-align: center;
+    border : 1px solid black;
+    margin: 20px auto;
+    width : 900px;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQsAAAC9CAMAAACTb6i8AAAAA1BMVEWHzupWpsF5AAAASElEQVR4nO3BMQEAAADCoPVPbQlPoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+BsXcAAGLPH6gAAAAAElFTkSuQmCC');
+    background-size: contain; /* Ensure the image covers the whole section */
+    background-position: center; 
+    background-attachment: fixed
+   
+}
+.about-section h3{
+    font-family: cursive;
+    color: #003366;
+    font-size: 1.5rem;;
+}
+
+#offer-container
+{
+    text-align: left;
+}
+b{
+    color: #003366;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: cursive;
+    color :#003366;
+
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    color: black;
+    text-align :justify;
+}
+/* contact styling */
+.contact-section {
+    padding: 40px;
+    background-color: #cfdbe7;
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px  auto;
+    width : 900px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIVQMpUf5S6iKkoJO0RQFJx503GyMpSnK2jw&s');
+    background-size: contain; /* Ensure the image covers the whole section */
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: #cfdbe7;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #cfdbe7;
+}
+
+.form-group {
+    margin-bottom: 20px auto;
+    text-align: left;
+    width : 500px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    color: #cfdbe7;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 900px;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: black;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    padding: 12px 25px;
+    background-color: #cfdbe7;
+    color: #003b7a;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #00458a;
+}
+
+/* Location Map */
+.location {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.location h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: cursive;
+    color: #cfdbe7;
+}
+
+.location p {
+    font-size: 1.2rem;
+    color: #cfdbe7;
+}
+
+#map iframe {
+    width: 100%;
+    border: 0;
+    height: 350px;
+}
+
+/* Highlight Active Navigation */
+.navbar .active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+.footer {
+    background-color : #00274e;
+    color: #cfdbe7;
+    padding: 40px 20px;
+    text-align: left;
+    border : 1px solid black;
+    margin: 20px auto;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 100px;
+    
+}
+.footer-contact
+{
+    padding-left: 150px;
+    margin-top: 0px;
+    line-height: 2.5rem;
+
+}
+.footer-about,
+.footer-links,
+.footer-contact {
+    flex: 1;
+    min-width: 250px;
+    
+}
+.footer-about h3{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color:#cfdbe7 ;
+    font-family: cursive;
+}
+.footer-contact h3 
+{
+    font-family: cursive;
+}
+
+.footer-contact h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5px;
+    color: #cfdbe7;
+}
+
+.footer-about p,
+.footer-contact p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact a {
+      text-decoration: none;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #cfdbe7;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    }
+
+.footer-bottom a {
+    color: #cfdbe7;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.footer-contact a {
+    color: #cfdbe7;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+ /* Ad's Styling */
+.ads-section {
+    background-color: #cfdbe7 ;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid black;
+
+}
+
+.ads-section h2 {
+    color: #00274e;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.ad-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+}
+
+.ad {
+    flex: 1 1 calc(33.333% - 15px);
+    box-sizing: border-box;
+    border: 1px solid #003366;
+    padding: 10px;
+    text-align: center;
+   
+    
+}
+
+.ad img {
+  
+   width : 150px;
+    margin-bottom: 10px;
+    border: 2px solid #02162a;
+}
+
+.ad p {
+    font-size: 1em;
+    margin: 10px 0;
+    font-family: cursive;
+}
+
+.ad a {
+    display: inline-block;
+    color: #00274e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ad a:hover {
+    text-decoration: underline;
+}
+/* 
+responsiveness */
+/* Responsive Design */
+
+/* General Styles for Smaller Screens */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    header {
+        text-align: center;
+    }
+    nav {
+        padding-left: 10px;
+    }
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar li {
+        margin: 10px 0;
+    }
+    .discoveries-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .ad-container {
+        flex-direction: column;
+    }
+}
+
+/* Very Small Screens */
+@media (max-width: 480px) {
+    .header .banner h1 {
+        font-size: 2rem;
+    }
+    .header .banner p {
+        font-size: 1rem;
+    }
+    .discoveries-grid {
+        grid-template-columns: 1fr;
+    }
+    .experiment-list {
+        padding: 0 10px;
+    }
+    .footer-contact {
+        padding-left: 0;
+    }
+    .ad img {
+        width: 100px;
+    }
+}
+
+/* Large Screens */
+@media (min-width: 1200px) {
+    .discoveries-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .ad {
+        flex: 1 1 calc(25% - 15px);
+    }
+    .footer-container {
+        justify-content: space-between;
+        gap: 50px;
+    }
+}
+
+/* Additional Adjustments for Tablet Screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .discoveries-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .ad-container {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .ad {
+        flex: 0 0 50%;
+    }
+}
+
+/* submission of blog  */
+.blog-submission-section {
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #cfdbe7;
+    font-family: cursive;
+    justify-content: center;
+    align-content: center;
+    width : 900px;
+}
+
+.blog-submission-section h2 {
+    color: #003366;
+    margin-bottom: 1em;
+}
+
+.blog-submission-section label {
+    font-weight: bold;
+}
+
+.blog-submission-section input, .blog-submission-section textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.blog-submission-section button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 0.7em 1.5em;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 12px 25px;
+}
+
+.blog-submission-section button:hover {
+    background-color: #0056b3;
+}
+
